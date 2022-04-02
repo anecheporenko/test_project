@@ -1,2 +1,2 @@
 # test_project
-Test description
+New projects description
