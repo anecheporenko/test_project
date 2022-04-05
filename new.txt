@@ -1,5 +1,6 @@
-import this
+import this, math
 
 print("Hello, world!")
+print ("Python")
 
 exit ()
