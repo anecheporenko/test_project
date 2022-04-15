@@ -1,0 +1,114 @@
+Задание №1
+1. Определите является ли строка записью числа. 
+(Подсказка: ищите как это сделать с помощью методов строк)
+
+a = "1234"
+print(a.isdigit())
+True
+
+b = "qwerty"
+print(b.isdigit())
+False
+
+
+2. Посчитайте сколько у вас пробелов в строке.
+
+a = "My First Test Project"
+a.count(" ")
+3
+
+
+3. Посчитайте сколько у вас символов точки '.' в строке.
+
+a = "My.First.Best.Test.Project."
+a.count(".")
+5
+
+
+4. Сделайте первые буквы слов строки большими (upper case).
+
+a = "march, april, may"
+a.title()
+'March, April, May'
+
+
+5. Определите заканчивается ли ваша строка подстрокой “ing”.
+
+a = "String"
+a.endswith("ing")
+True
+
+b = "April"
+a.endswith("ing")
+False
+
+
+6. Определите индекс первого вхождения символа “a” в вашей строке.
+a = "Sunday"
+a.index("a")
+4
+
+
+7. Разбейте строку на список подстрок по символу пробела.
+a = "Test examples of Python"
+print(a.split())
+['Test', 'examples', 'of', 'Python']
+
+
+8. Пусть у вас строка имеет пробельные символы. Найдите метод, который удаляет пробельные 
+символы вначале и в конце, но не посередине.
+
+a = "  My First Project  "
+a.strip()
+'My First Project'
+
+
+9. Создайте строку "Homework". Преобразуйте её в строку длиной 100 символов, 
+посередине которой исходное слово, а с обоих сторон строка заполнена пробелами. 
+Выведите её на экран. Убедитесь, что у вас 100 символов (посчитайте длину).
+
+c = '     qwertyuiopasdfghjklzqwertyuiopasdfghjklzq'
+d = "qwertyuiopasdfghjklzqwertyuiopasdfghjklzq     "
+f = "Homework"
+
+c+f+d
+'     qwertyuiopasdfghjklzqwertyuiopasdfghjklzqHomeworkqwertyuiopasdfghjklzqwertyuiopasdfghjklzq     '
+len(c+f+d)
+100
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

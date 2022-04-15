@@ -1,0 +1,53 @@
+Задание №3
+1. Выведите 3-е с конца слово из списка.
+
+a = ["March", "April", "May", "June", "July", "August"]
+a[-3]
+'June'
+
+
+2. Выведите 1-й символ второго слова из списка.
+
+a = ["March", "April", "May", "June", "July", "August"]
+a[1][0]
+'A'
+
+
+3. Выведите последний символ последнего слова из списка.
+
+a = ["March", "April", "May", "June", "July", "August"]
+a[5][-1]
+'t'
+
+4. Добавьте в конец списка еще одно слово.
+
+a = ["March", "April", "May", "June", "July", "August"]
+a.append("September")
+print(a)
+['March', 'April', 'May', 'June', 'July', 'August', 'September'] 
+
+
+5. Вставьте в середину списка еще одно слово.
+
+a = ["March", "April", "June", "July", "August"]
+a.insert(2, "May")
+print(a)
+['March', 'April', 'May', 'June', 'July', 'August']
+
+
+6. Удалите первое слово из списка.
+
+a = ["March", "April", "May", "June", "July", "August"]
+a.pop(0)
+'March'
+print(a)
+['April', 'May', 'June', 'July', 'August']
+
+
+7. Удалите слово «world» из списка, если оно есть в списке.
+
+a = ["hello", "my", "great", "world"]
+a.pop(-1)
+'world'
+print(a)
+['hello', 'my', 'great']

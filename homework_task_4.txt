@@ -1,0 +1,55 @@
+Задание №4
+Создайте словарь характеристик продукта с ключами «title» (значение типа данных str), 
+«price» (значение численного типа данных), «ingredients» (значение – список строк).
+
+d = {"title": "product", "price": 10, "ingredients": ["bread", "butter", "cheese", "sausage"]}
+
+
+1. Добавьте еще одну пару ключ-значение - «description»: какой-то текст
+d ["description"] = "it's tasty"
+{'title': 'product',
+ 'price': 10,
+ 'ingredients': ['bread', 'butter', 'cheese', 'sausage'],
+ 'description': "it's tasty"}
+
+
+2. Увеличьте цену на 100.
+d["price"] = 10 + 100
+d
+{'title': 'product',
+ 'price': 110,
+ 'ingredients': ['bread', 'butter', 'cheese', 'sausage'],
+ 'description': "it's tasty"}
+
+
+3. Добавьте в список ингредиентов еще один ингредиент.
+
+d["ingredients"] = ["bread", "butter", "cheese", "sausage", "onion"]
+d
+{'title': 'product',
+ 'price': 110,
+ 'ingredients': ['bread', 'butter', 'cheese', 'sausage', 'onion'],
+ 'description': "it's tasty"}
+
+
+4. Выведите на экран количество ингредиентов продукта.
+len(d["ingredients"])
+5
+
+
+5. Удалите из словаря значение с ключом «description»
+d.pop("description")
+"it's tasty"
+d
+{'title': 'product',
+ 'price': 110,
+ 'ingredients': ['bread', 'butter', 'cheese', 'sausage', 'onion']}
+
+
+ 
+
+
+
+
+
+
